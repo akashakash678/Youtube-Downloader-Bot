@@ -15,6 +15,6 @@ async def start(client, message):
                     [InlineKeyboardButton("Author", url="https://t.me/xgorn")],
                 ]
             ),
-    welcomed = f"Hi <b>{message.from_user.first_name}</b>\nI can download your online class</b>\nIf you don't know how to use me</b>\nThen type /help"
-    await message.reply_text(welcomed, reply_markup=joinButton)
+    welcomed = """Hi <b>{message.from_user.first_name}I can download your online class</b>\n If you don't know how to use me</b>\n Then type /help"""
+    await message.reply_text welcomed, (reply_markup)=joinButton
     raise StopPropagation
