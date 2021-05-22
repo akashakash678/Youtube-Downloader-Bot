@@ -16,5 +16,5 @@ async def start(client, message):
                 ]
             ),
     welcomed = """Hi <b>{message.from_user.first_name}I can download your online class</b>\n If you don't know how to use me</b>\n Then type /help"""
-    await message.reply_text welcomed, (reply_markup)=joinButton
+    await message.reply_text (welcomed, reply_markup=joinButton)
     raise StopPropagation
