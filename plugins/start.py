@@ -7,8 +7,9 @@ async def start(client, message):
     joinButton = InlineKeyboardMarkup([
         [InlineKeyboardButton("Channel", url="https://t.me/testytbotchannel")],
         [InlineKeyboardButton(
-            "Report Bugs 😊", url="https://t.me/masterpice38")]
+            "Report Bugs 😊", url="https://t.me/masterpice38")],
+        [InlineKeyboardButton("Made b💕", url="https://t.me/masterpice38")]
     ])
-    welcomed = f"Hey <b>{message.from_user.first_name}</b>\ni can download your online videos/help for More info"
+    welcomed = f"Hey <b>{message.from_user.first_name}</b> \n I can download your online class videos. <b> /n /help for More info"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
