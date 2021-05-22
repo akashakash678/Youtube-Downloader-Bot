@@ -9,5 +9,6 @@ async def start(client, message):
 2.🔹 <b> Go to your MBPU COLLEGE APP.</b> \n
 3.🔹 <b> Copy the link of your video.</b> \n
 4.🔹 <b> And paste it here.</b>   \n
-5.🔹 <b> And I'll Upload It Into Telegram </b> \n \n <b>Made With Love By: @masterpice38 </b>"""
+5.🔹 <b> And I'll Upload It Into Telegram </b> \n \n <b>Made With Love By: @masterpice38 </b> /n
+              💕HAPPY LEARNING💕 </b>"""
     await message.reply_text(helptxt)
