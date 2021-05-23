@@ -12,12 +12,19 @@ async def start(client, message):
     ])
     welcomed = f"""Hi <b>{message.from_user.first_name}</b> 
  
+IMPORTANT NOTE FOR OTGER USERS (except MBPU students)
+This bot is only made for MBPU students
+
+If  you want to use then plz contact my owner @masterpice38
+
+Dear <b>{message.from_user.first_name}</b> plz join our channel and group
+
+I can download your online class videos.
+
+/help for More info
     
-    I can download your online class videos.
-    /help for More info
     
-    
-    💕HAPPY LEARNING💕
+💕HAPPY LEARNING💕
    
    
     https://telegra.ph/file/590aa8344b6642bfa8478.jpg"""
