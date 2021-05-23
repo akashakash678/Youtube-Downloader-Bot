@@ -13,13 +13,13 @@ async def start(client, message):
     welcomed = f"""Hi <b>{message.from_user.first_name}</b> 
  
     
-    </b> I can download your online class videos.</b> /n
-    </b> /help for More info</b> /n
+    I can download your online class videos.
+    /help for More info
     
     
-    </b> 💕HAPPY LEARNING💕 </b> /n
+    💕HAPPY LEARNING💕
    
    
-    </b> https://telegra.ph/file/590aa8344b6642bfa8478.jpg"""
+    https://telegra.ph/file/590aa8344b6642bfa8478.jpg"""
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
